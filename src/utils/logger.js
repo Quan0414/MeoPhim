@@ -1,6 +1,6 @@
 import { ENABLE_LOGS } from '../config/env.js';
 
-const LOG_PREFIX = '[ophim-frontend]';
+const LOG_PREFIX = '[meophim-frontend]';
 
 function write(method, scope, message, details) {
   if (!ENABLE_LOGS) return;

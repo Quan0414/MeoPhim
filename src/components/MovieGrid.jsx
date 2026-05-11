@@ -18,7 +18,7 @@ export function MovieGrid({ movies, cdnBase, navigate }) {
           >
             <div className="poster-frame">
               {imageUrl ? <img src={imageUrl} alt={movie.name || 'Poster phim'} loading="lazy" /> : <Film size={42} />}
-              <span>{movie.quality || movie.lang || movie.year || 'OPhim'}</span>
+              <span>{movie.quality || movie.lang || movie.year || 'MeoPhim'}</span>
             </div>
             <strong>{movie.name || 'Dang cap nhat'}</strong>
             <small>{movie.origin_name || movie.year || 'Dang cap nhat'}</small>

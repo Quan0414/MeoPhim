@@ -21,7 +21,7 @@ export function Header({ route, navigate }) {
     <header className="site-header">
       <button className="brand" type="button" onClick={() => navigate({ page: 'home' })}>
         <Clapperboard size={28} />
-        <span>OPhim</span>
+        <span>MeoPhim</span>
       </button>
 
       <nav className="top-nav" aria-label="Danh muc phim">

@@ -1,6 +1,6 @@
-# ophim-frontend
+# MeoPhim
 
-React + Vite frontend for `ophim-backend`.
+React + Vite frontend for the movie backend.
 
 ## Run
 
