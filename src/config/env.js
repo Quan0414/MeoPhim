@@ -1,4 +1,4 @@
-export const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8080/v1/api';
+export const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'https://ophim1.com/v1/api';
 
 export const ENABLE_LOGS = import.meta.env.DEV || import.meta.env.VITE_ENABLE_LOGS === 'true';
 
